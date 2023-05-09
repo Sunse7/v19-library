@@ -64,8 +64,12 @@ function borrowBook() {
 
   books.map((book) => {
     if (Object.is(book.id, parseInt(bookId))) {
-      book.isBorrowed = true;
-      console.log("Borrowed", book);
+        if (!book.isBorrowed) {
+            book.isBorrowed = true;
+            console.log("Borrowed", book);
+        } else {
+            console.log('This book is already borrowed :(');
+        }
     }
   });
 
@@ -79,8 +83,12 @@ function returnBook() {
   let bookId = readline.question("Enter id of book to return\n");
   books.map((book) => {
     if (Object.is(book.id, parseInt(bookId))) {
-      book.isBorrowed = false;
-      console.log("Returned");
+        if (book.isBorrowed) {
+            book.isBorrowed = false;
+            console.log("Returned");
+        } else {
+            console.log('Cant return a book that is not borrowed!');
+        }
     }
   });
 
