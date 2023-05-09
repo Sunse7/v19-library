@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Hunger games",
+    "author": "Susanne Collins",
+    "isBorrowed": false
+  },
+  {
+    "id": 2,
+    "name": "The Raven",
+    "author": "Edgar Allen Poe",
+    "isBorrowed": false
+  },
+  {
+    "id": 3,
+    "name": "Hanteringen av odöda",
+    "author": "John Ajvide Lindqvist",
+    "isBorrowed": false
+  },
+  { "id": 4, "name": "Voff", "author": "Lucky", "isBorrowed": false },
+  { "id": 5, "name": "Voff voff", "author": "Lucky", "isBorrowed": false },
+  { "id": 6, "name": "Mjau", "author": "Azmodan", "isBorrowed": false }
+]
