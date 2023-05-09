@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Hunger games",
     "author": "Susanne Collins",
-    "isBorrowed": false
+    "isBorrowed": true
   },
   {
     "id": 2,
